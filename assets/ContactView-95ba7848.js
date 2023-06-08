@@ -1,0 +1,1 @@
+import{_ as t,o as e,c,a as o}from"./index-30e937ce.js";const _={},n={class:"contact"},s=o("h1",null,"Contact",-1),a=[s];function r(i,d){return e(),c("div",n,a)}const f=t(_,[["render",r]]);export{f as default};
