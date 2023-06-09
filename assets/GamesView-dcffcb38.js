@@ -1,1 +1,0 @@
-import{_ as e,o as s,c as _,a as t}from"./index-30e937ce.js";const c={},o={class:"games"},a=t("h1",null,"This is games view",-1),n=[a];function i(r,d){return s(),_("div",o,n)}const m=e(c,[["render",i]]);export{m as default};
