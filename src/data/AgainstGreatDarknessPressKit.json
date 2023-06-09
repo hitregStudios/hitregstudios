@@ -1,0 +1,43 @@
+ {
+      "titleImage": "../../assets/Icon.png",
+      "description": "Against Great Darkness is an action, roguelite, bullet hell with a risk reward system that utilizes retro brick breaking mechanics. Fight your way through the pits of hell. Find interesting synergies in the relics you acquire. Unlock characters, and upgrades to increase your chances.",
+      "history": "blarg'''",
+      "features": "these are the features",
+      "developer": "this is about the developer",
+      "videos": [
+        {
+          "id": "WvCbJCwLPlA",
+          "title": "Against Great Darkness Announcement Trailer"
+        }
+      ],
+      "images": [
+        {
+          "image": "../../assets/AGD/CharacterSelect.png",
+          "title": "Against Great Darkness Announcement Trailer"
+        },
+        {
+          "image": "../../assets/AGD/ScreenGrab_02.png",
+          "title": "Against Great Darkness Announcement Trailer"
+        },
+        {
+          "image": "../../assets/AGD/CharacterSelect.png",
+          "title": "Against Great Darkness Announcement Trailer"
+        },
+        {
+          "image": "../../assets/AGD/ScreenGrab_03.png",
+          "title": "Against Great Darkness Announcement Trailer"
+        },
+        {
+          "image": "../../assets/AGD/ScreenGrab_04.png",
+          "title": "Against Great Darkness Announcement Trailer"
+        },
+        {
+          "image": "../../assets/AGD/ScreenGrab_05.png",
+          "title": "Against Great Darkness Announcement Trailer"
+        },
+        {
+          "image": "../../assets/AGD/ScreenGrab_06.png",
+          "title": "Against Great Darkness Announcement Trailer"
+        }
+      ]
+}

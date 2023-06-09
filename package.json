@@ -10,9 +10,20 @@
     "format": "prettier --write src/"
   },
   "dependencies": {
+    "@duskmoon/vue3-typed-js": "^0.0.4",
+    "@fortawesome/fontawesome-free": "^6.4.0",
+    "@fortawesome/fontawesome-svg-core": "^6.4.0",
+    "@fortawesome/free-brands-svg-icons": "^6.4.0",
+    "@fortawesome/free-regular-svg-icons": "^6.4.0",
+    "@fortawesome/free-solid-svg-icons": "^6.4.0",
+    "@fortawesome/vue-fontawesome": "^3.0.3",
     "pinia": "^2.0.36",
+    "tsparticles-engine": "^2.10.1",
     "vue": "^3.3.2",
-    "vue-router": "^4.2.0"
+    "vue-lite-youtube-embed": "^1.2.0",
+    "vue-particles": "^1.0.9",
+    "vue-router": "^4.2.0",
+    "vue-silentbox": "^3.0.4"
   },
   "devDependencies": {
     "@rushstack/eslint-patch": "^1.2.0",

@@ -1,34 +1,102 @@
 <script setup>
-import { RouterLink, RouterView } from 'vue-router'
-import HelloWorld from './components/HelloWorld.vue'
+  import { RouterLink, RouterView } from 'vue-router'
+  import { Typed } from "@duskmoon/vue3-typed-js"
 </script>
 
 <template>
   <header>
-    <img alt="Vue logo" class="logo" src="@/assets/logo.svg" width="125" height="125" />
-
+    <img alt="hitregLogo" class="logo" src="@/assets/logo.svg"/>
+    <Typed id="typed" :options="options">
+      <h1>We make <span class="typing"></span></h1>
+    </Typed>
     <div class="wrapper">
-      <HelloWorld msg="You did it!" />
-
       <nav>
-        <RouterLink to="/">Home</RouterLink>
+        <RouterLink to="/games/AgainstGreatDarkness">Games</RouterLink>
         <RouterLink to="/about">About</RouterLink>
+        <RouterLink to="/Contact">Contact</RouterLink>
       </nav>
-    </div>
+    </div>  
   </header>
-
-  <RouterView />
+  <div class="display">
+      <RouterView />
+  </div>
+  <footer>
+    <p>join the discord</p>
+  </footer>
 </template>
+
+<script>
+export default {
+  data() {
+    return {
+      options: {
+        strings: [
+          "indie games",
+          "experineces",
+          "adventures",
+          "bugs",
+          "virtual realities",
+          "memes",
+          "bullet hells",
+          "shmups",
+          "roguelites",
+          "pixel art",
+          "deck builders",
+          "shooters"
+        ],
+        loop: true,
+        typeSpeed: 30,
+        delay: 10,
+        backDelay: 2000,
+      }
+    }
+  },
+};
+</script>
 
 <style scoped>
 header {
   line-height: 1.5;
   max-height: 100vh;
+  display: flex;
+  place-items: center;
+  padding-right: calc(var(--section-gap) / 2);
+  padding-left: calc(var(--section-gap) / 2);
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+.display{
+  flex-grow: 1;
+  flex-basis: auto;
+  align-self: stretch;
+  overflow-y: auto;
+  overflow-x: hidden;
+  margin-right: -2rem;
+  margin-left: -2rem;
+}
+
+.display > *{
+  width: 100%;
+  height: 100%;
+  padding: 2rem;
+}
+
+footer{
+  position:fixed;
+  bottom: 0;
+  height:30px;
+  background-color:var(--color-border);
+  width:100%;
+  margin: 0px;
+  margin-left: -2rem;
 }
 
 .logo {
   display: block;
-  margin: 0 auto 2rem;
+  margin: 0 auto 1rem;
 }
 
 nav {
@@ -56,30 +124,49 @@ nav a:first-of-type {
   border: 0;
 }
 
+#typed{
+  text-align: left;
+  width: 100%;
+  display:none;
+}
+
+
 @media (min-width: 1024px) {
   header {
     display: flex;
     place-items: center;
     padding-right: calc(var(--section-gap) / 2);
+    min-width: 670px;
+  }
+
+  .display{
+    margin-left: 0;
+    background-color: white;
+  }
+
+  #typed{
+    text-align: left;
+    width: 100%;
+    display:inline;
+    margin-top: 10px;
+    padding-left: 214px;
   }
 
   .logo {
-    margin: 0 2rem 0 0;
+    margin: 0 0rem 0 0;
   }
 
   header .wrapper {
-    display: flex;
-    place-items: flex-start;
-    flex-wrap: wrap;
+     width: 100%;
   }
 
   nav {
-    text-align: left;
+    text-align: center;
     margin-left: -1rem;
     font-size: 1rem;
-
     padding: 1rem 0;
-    margin-top: 1rem;
+    margin-top: 10rem;
   }
 }
+
 </style>
