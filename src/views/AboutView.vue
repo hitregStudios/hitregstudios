@@ -7,15 +7,43 @@
     </div>
   </div>
 </template>
-
+<script>
+export default {
+  mounted(){
+    document.body.style.background = "#0d1927";
+  }
+}
+</script>
 <style scoped>
+.about{
+  background-color: #116399;
+  background-image: url("src/assets/About.png");
+  background-position: 0 100%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  flex-direction: column;
+  align-content: stretch;
+  justify-content: space-between;
+  color:#fff;
+}
+
+.line{
+  border-color: #ffffff;
+}
+
+.blurp{
+  align-self: flex-start;
+}
 
 @media (min-width: 1024px) {
+  .blurp{
+    margin-top: 10rem;
+  }
   .about {
     min-height: 100vh;
     display: flex;
     align-items: center;
-    background-color: #9c5019;
+    padding: 0px;
   }
 }
 </style>

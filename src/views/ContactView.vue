@@ -15,14 +15,45 @@
   </div>
 </template>
 
+<script>
+export default {
+  mounted(){
+    document.body.style.background = "#601811";
+  }
+}
+</script>
+
+
 <style scoped>
+.contact{
+  background-color: #f5c55b;
+  background-image: url("src/assets/Dunes.png");
+  background-position: 0 100%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  flex-direction: column;
+  align-content: stretch;
+  justify-content: space-between;
+  color:#601811;
+}
+
+.line{
+  border-color: #e96b54;
+}
+
+.blurp{
+  align-self: flex-start;
+}
 
 @media (min-width: 1024px) {
+  .blurp{
+    margin-top: 10rem;
+  }
   .contact {
     min-height: 100vh;
     display: flex;
     align-items: center;
-    background-color: #9c5019;
+    padding: 0px;
   } 
 }
 </style>

@@ -1,4 +1,38 @@
 {
-      "background": "../../assets/SSaturday5_26.gif", 
-      "steamWidget": "2302150"    
+  "title": "Against Great Darkness", 
+  "description": "This is the description of my game", 
+  "background": "../../assets/AGD/backgroundLow.gif", 
+    "textColor":"#ffffff",
+    "boxColor":"#96070e",
+    "steamWidget": "2302150",
+    "video": {
+      "id": "WvCbJCwLPlA",
+      "title": "Against Great Darkness Announcement Trailer"
+    },
+    "images": [
+      {
+        "src": "/hitregstudios/src/assets/AGD/CharacterSelect.png",
+        "description": "Against Great Darkness Announcement Trailer"
+      },
+      {
+        "src": "/hitregstudios/src/assets/AGD/ScreenGrab_02.png",
+        "description": "Against Great Darkness Announcement Trailer"
+      },
+      {
+        "src": "/hitregstudios/src/assets/AGD/MetaUpgrades.png",
+        "description": "Against Great Darkness Announcement Trailer"
+      },
+      {
+        "src": "/hitregstudios/src/assets/AGD/ScreenGrab_03.png",
+        "description": "Against Great Darkness Announcement Trailer"
+      },
+      {
+        "src": "/hitregstudios/src/assets/AGD/ScreenGrab_04.png",
+        "description": "Against Great Darkness Announcement Trailer"
+      },
+      {
+        "src": "/hitregstudios/src/assets/AGD/ScreenGrab_06.png",
+        "description": "Against Great Darkness Announcement Trailer"
+      }
+    ]
 }

@@ -21,7 +21,7 @@
       <RouterView />
   </div>
   <footer>
-    <p>join the discord</p>
+    <p>discord</p>
   </footer>
 </template>
 
@@ -65,7 +65,7 @@ header {
   flex-wrap: wrap;
   flex-direction: column;
   justify-content: center;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
 }
 
 .display{
@@ -82,16 +82,18 @@ header {
   width: 100%;
   height: 100%;
   padding: 2rem;
+  background-color: white;
 }
 
 footer{
   position:fixed;
   bottom: 0;
-  height:30px;
-  background-color:var(--color-border);
-  width:100%;
+  height:50px;
+  width:50px;
+  background-color:#17adb2;
   margin: 0px;
   margin-left: -2rem;
+  border-top-right-radius: 5px;
 }
 
 .logo {
@@ -103,7 +105,7 @@ nav {
   width: 100%;
   font-size: 12px;
   text-align: center;
-  margin-top: 2rem;
+  margin-top: 1rem;
 }
 
 nav a.router-link-exact-active {
