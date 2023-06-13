@@ -5,7 +5,7 @@
 </script>
 
 <template>
-  <div class="game OpacityUp" :style="backgroundStyle">
+  <div class="game OpacityUp" :style="backgroundStyle(background)">
     <div class="innerContainer">
       <!-- <div class="subHeader" :style="headerStyle"></div> -->
       <div class="innerRow">
@@ -42,17 +42,14 @@
       document.body.style.background = "#010101";
     },
     computed: {
-      backgroundStyle() {
-        return "background-image: url(" + this.getImgUrl(this.background) + ")";
-      },
-      headerStyle() {
-        return "background-image: url(" + this.getImgUrl(this.header) + ")";
-      },
       steamPath() {
         return "https://store.steampowered.com/widget/" + this.steamWidget + "/";
       }
     },
     methods: {
+      backgroundStyle(file) {
+        return "background-image: url(" + file + ")";
+      },
       getImgUrl(name){
         return new URL("./dir/"+ name, import.meta.url).href
       },
@@ -109,7 +106,7 @@
 @media (min-width: 1024px) {
 
   .innerContainer{
-    padding:19%;
+    padding:131px;
     height:100%;
 
     justify-content: center;

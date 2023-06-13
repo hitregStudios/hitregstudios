@@ -27,7 +27,7 @@ export default {
 <style scoped>
 .contact{
   background-color: #f5c55b;
-  background-image: url("src/assets/Dunes.png");
+  background-image: url("/Dunes.png");
   background-position: 0 100%;
   background-size: contain;
   background-repeat: no-repeat;

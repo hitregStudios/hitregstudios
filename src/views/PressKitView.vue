@@ -5,7 +5,7 @@
 
 <template>
   <div class="pressKit OpacityUp">
-    <img :src="getImgUrl(titleImage)" class="header"/>
+    <img :src="titleImage" class="header"/>
     <div class="innerContainer">
       <div>
         <h2><fa :icon="['fas','gamepad']"/> Description</h2>
@@ -97,9 +97,6 @@
       document.body.style.background = "#010101";
     },
     methods: {
-      getImgUrl(name){
-        return new URL("./dir/"+ name, import.meta.url).href
-      },
       backBtn(){
         this.$route.name;
       }

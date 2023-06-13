@@ -17,7 +17,7 @@ export default {
 <style scoped>
 .about{
   background-color: #116399;
-  background-image: url("src/assets/About.png");
+  background-image: url("/About.png");
   background-position: 0 100%;
   background-size: contain;
   background-repeat: no-repeat;

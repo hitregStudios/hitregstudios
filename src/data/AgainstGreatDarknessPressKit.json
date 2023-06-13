@@ -1,5 +1,5 @@
  {
-      "titleImage": "../../assets/AGD/AGD_Header.png",
+      "titleImage": "/AGD/AGD_Header.png",
       "price": "$4.99",
       "releaseDate": "Q3 2023",
       "platforms": "Windows",
@@ -15,64 +15,64 @@
       ],
       "images": [
         {
-          "src": "/hitregstudios/src/assets/AGD/AGD_CharacterSelect.png",
+          "src": "/AGD/AGD_CharacterSelect.png",
           "description": "Character select screen",
           "download": "true"
         },
         {
-          "src": "/hitregstudios/src/assets/AGD/AGD_SS_01.png",
+          "src": "/AGD/AGD_SS_01.png",
           "description": "Hill of the Skull boss",
           "download": "true"
         },
         {
-          "src": "/hitregstudios/src/assets/AGD/AGD_MetaProgression.png",
+          "src": "/AGD/AGD_MetaProgression.png",
           "description": "Meta progression",
           "download": "true"
         },
         {
-          "src": "/hitregstudios/src/assets/AGD/AGD_SS_02.png",
+          "src": "/AGD/AGD_SS_02.png",
           "description": "Item proc off juggle",
           "download": "true"
         },
         {
-          "src": "/hitregstudios/src/assets/AGD/AGD_SS_03.png",
+          "src": "/AGD/AGD_SS_03.png",
           "description": "Random event",
           "download": "true"
         },
         {
-          "src": "/hitregstudios/src/assets/AGD/AGD_SS_04.png",
+          "src": "/AGD/AGD_SS_04.png",
           "description": "Delilah boss",
           "download": "true"
         },
         {
-          "src": "/hitregstudios/src/assets/AGD/AGD_SS_05.png",
+          "src": "/AGD/AGD_SS_05.png",
           "description": "Jeweled Fowl boss",
           "download": "true"
         }
       ],
       "branding": [
         {
-          "src": "/hitregstudios/src/assets/AGD/AGD_Logo.png",
+          "src": "/AGD/AGD_Logo.png",
           "description": "Logo",
           "download": "true"
         },
         {
-          "src": "/hitregstudios/src/assets/AGD/AGD_Logo_KO.png",
+          "src": "/AGD/AGD_Logo_KO.png",
           "description": "Logo KO",
           "download": "true"
         },
         {
-          "src": "/hitregstudios/src/assets/AGD/AGD_KeyArt.png",
+          "src": "/AGD/AGD_KeyArt.png",
           "description": "Key Art",
           "download": "true"
         },
         {
-          "src": "/hitregstudios/src/assets/HitRegIcon_KO.png",
+          "src": "/HitRegIcon_KO.png",
           "description": "Hitreg Icon",
           "download": "true"
         },
         {
-          "src": "/hitregstudios/src/assets/HitRegLogo_KO.png",
+          "src": "/HitRegLogo_KO.png",
           "description": "Hitreg logo",
           "download": "true"
         }
