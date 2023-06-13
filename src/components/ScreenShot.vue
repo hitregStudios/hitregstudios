@@ -1,38 +1,36 @@
 
 <template>
-  <div class="ScreenShot">
-    <img :src=getImgUrl(image)>
-    <button @click="downloadImage">Download</button>
-  </div>
+  <iframe class="steamFrame" :src="steamPath" frameborder="0" width="100%" height="190"></iframe>
 </template>
 <script>
   export default {
     props: {
-      title: String,
-      image: String
+      steamPath: String,
     },
     mounted(){
-
+      this.$nextTick(() => {
+        window.addEventListener('resize', this.onResize);
+      })
+      this.onResize();
+    },
+    beforeDestroy() { 
+      window.removeEventListener('resize', this.onResize); 
     },
     methods: {
-      getImgUrl(name){
-        return new URL("./dir/"+ name, import.meta.url).href
-      },
-      async downloadImage() {
-          const blob = await (await fetch(getImgUrl(getImgUrl))).blob();
-          const url = URL.createObjectURL(blob);
-          var lastSlashIndex = this.image.lastIndexOf('/');
-          Object.assign(document.createElement('a'), { href: url, download: targetString.substring(lastSlashIndex + 1)})
-              .click();
-          URL.revokeObjectURL(url);
+      onResize() {
+        console.log(window.innerWidth);
+        //window.innerWidth > 1280
+        var frameObj = document.getelement(frameID);
+        var frameContent = frameObj.contentWindow.document.body.innerHTML;
+        alert("frame content : " + frameContent);
       }
     }
   }
 </script>
 
 <style scoped>
-.ScreenShot{
-  width:100%;
-  height:100%;
+.steamFrame{
+  flex:none;
+  margin-bottom:40px;
 }
 </style>

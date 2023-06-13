@@ -1,5 +1,6 @@
 <script setup>
   import LiteYouTubeEmbed from 'vue-lite-youtube-embed'
+  import SteamWidget from '../components/SteamWidget.vue'
   import 'vue-lite-youtube-embed/style.css'
 </script>
 
@@ -19,9 +20,8 @@
           <p>{{description}}</p>
         </div>
       </div>
-      <silent-box class="gallery" :gallery="images"><!-- your additional content --></silent-box>
-     
-      <iframe :src="steamPath" frameborder="0" width="646" height="190"></iframe>
+      <silent-box class="gallery" :gallery="images"></silent-box>
+      <SteamWidget :steamPath="steamPath" />
     </div>  
   </div>
 </template>
@@ -73,7 +73,6 @@
 
 .descriptionText{
   padding:30px;
-  max-width: 23vw;
 }
 
 .innerRow > *{
@@ -87,17 +86,21 @@
   background-repeat: no-repeat;
 }
 
+.steamFrame{
+  flex:none;
+  margin-bottom:40px;
+}
+
 .innerContainer{
   display:flex;
   flex-direction: column;
   width:100%;
-  height:100%;
   align-items: center;
 }
 
 .game{
   image-rendering: pixelated;
-  background-size: contain;
+  background-size: cover;
   background-position: center;
   overflow-y: auto;
   overflow-x: hidden;
@@ -107,14 +110,18 @@
 
   .innerContainer{
     padding:19%;
+    height:100%;
+
     justify-content: center;
   }
-
   .innerRow{
     display:flex;
     flex-direction: row;
   }
 
+  .descriptionText{
+    max-width: 23vw;
+  }
   .subHeader{
     width:100%;
     height:16rem;

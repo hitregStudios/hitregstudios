@@ -3,13 +3,13 @@
     <div class="blurp">
       <h1>Contact</h1>
       <div class="line"></div>
-      <p>email:</p>
-      <p>&nbsp;&nbsp;&nbsp;&nbsp;hitregStuidos [at] gmail.com:</p>
+      <p><fa :icon="['fas','envelope']"/>  email:</p>
+      <p>&nbsp;&nbsp;&nbsp;&nbsp;dirly@hitregstudios.com</p>
       <div class="line"></div>
-      <p>twitter:</p>
+      <p><fa :icon="['fab','twitter']"/>  twitter:</p>
       <p>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://twitter.com/DirlyDev">@DirlyDev</a></p>
       <div class="line"></div>
-      <p>twitch:</p>
+      <p><fa :icon="['fab','twitch']"/>  twitch:</p>
       <p>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://www.twitch.tv/dirlyd">DirlyD</a></p>
     </div>
   </div>

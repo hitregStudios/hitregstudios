@@ -21,7 +21,7 @@
       <RouterView />
   </div>
   <footer>
-    <p>discord</p>
+    <p><fa :icon="['fab', 'discord']" /></p>
   </footer>
 </template>
 
@@ -76,6 +76,7 @@ header {
   overflow-x: hidden;
   margin-right: -2rem;
   margin-left: -2rem;
+  margin-bottom: -2rem;
 }
 
 .display > *{
@@ -90,10 +91,13 @@ footer{
   bottom: 0;
   height:50px;
   width:50px;
-  background-color:#17adb2;
   margin: 0px;
   margin-left: -2rem;
   border-top-right-radius: 5px;
+  font-size:30px;
+  text-align: center;
+  color:black;
+  background-color: white;
 }
 
 .logo {
@@ -144,6 +148,7 @@ nav a:first-of-type {
   .display{
     margin-left: 0;
     background-color: white;
+    margin-bottom: 0px;
   }
 
   #typed{

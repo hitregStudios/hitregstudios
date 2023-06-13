@@ -1,6 +1,6 @@
 {
   "title": "Against Great Darkness", 
-  "description": "This is the description of my game", 
+  "description": "Against Great Darkness is a brick breaker, bullet hell, roguelite where you embody a paragon of pagan mythology striving to escape eternal damnation. Battle hordes of demonic entities, acquire powerful relics, and navigate unique events that can aid or hinder your ascent. Gather shards to unlock upgrades and enhance your chances of success in this journey to ascension.",
   "background": "../../assets/AGD/backgroundLow.gif", 
     "textColor":"#ffffff",
     "boxColor":"#96070e",
@@ -11,28 +11,32 @@
     },
     "images": [
       {
-        "src": "/hitregstudios/src/assets/AGD/CharacterSelect.png",
-        "description": "Against Great Darkness Announcement Trailer"
+        "src": "/hitregstudios/src/assets/AGD/AGD_CharacterSelect.png",
+        "description": "Character select screen"
       },
       {
-        "src": "/hitregstudios/src/assets/AGD/ScreenGrab_02.png",
-        "description": "Against Great Darkness Announcement Trailer"
+        "src": "/hitregstudios/src/assets/AGD/AGD_SS_01.png",
+        "description": "Hill of the Skull boss"
       },
       {
-        "src": "/hitregstudios/src/assets/AGD/MetaUpgrades.png",
-        "description": "Against Great Darkness Announcement Trailer"
+        "src": "/hitregstudios/src/assets/AGD/AGD_MetaProgression.png",
+        "description": "Meta progression"
       },
       {
-        "src": "/hitregstudios/src/assets/AGD/ScreenGrab_03.png",
-        "description": "Against Great Darkness Announcement Trailer"
+        "src": "/hitregstudios/src/assets/AGD/AGD_SS_02.png",
+        "description": "Item proc off juggle"
       },
       {
-        "src": "/hitregstudios/src/assets/AGD/ScreenGrab_04.png",
-        "description": "Against Great Darkness Announcement Trailer"
+        "src": "/hitregstudios/src/assets/AGD/AGD_SS_03.png",
+        "description": "Random event"
       },
       {
-        "src": "/hitregstudios/src/assets/AGD/ScreenGrab_06.png",
-        "description": "Against Great Darkness Announcement Trailer"
+        "src": "/hitregstudios/src/assets/AGD/AGD_SS_04.png",
+        "description": "Delilah boss"
+      },
+      {
+        "src": "/hitregstudios/src/assets/AGD/AGD_SS_05.png",
+        "description": "Jeweled Fowl boss"
       }
     ]
 }
