@@ -21,7 +21,7 @@
       <RouterView />
   </div>
   <footer>
-    <p><fa :icon="['fab', 'discord']" /></p>
+    <p><a href="https://discord.gg/aRaWYs9R6Z"><fa :icon="['fab', 'discord']" /></a></p>
   </footer>
 </template>
 

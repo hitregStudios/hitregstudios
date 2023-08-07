@@ -18,6 +18,7 @@
         <div class="descriptionText" :style="{ 'color' : textColor, 'backgroundColor' : boxColor}">
           <h1>{{title}}</h1>
           <p>{{description}}</p>
+          <RouterLink class="btn" :to="pressKit + '/presskit'">Press Kit</RouterLink>
         </div>
       </div>
       <silent-box class="gallery" :gallery="images"></silent-box>
@@ -31,6 +32,7 @@
     props: {
       title: String,
       description: String,
+      pressKit: String,
       background: String,
       steamWidget: String,
       textColor: String,
@@ -44,6 +46,9 @@
     computed: {
       steamPath() {
         return "https://store.steampowered.com/widget/" + this.steamWidget + "/";
+      },
+      currentRouteName() {
+        return this.$route.name;
       }
     },
     methods: {
@@ -62,6 +67,23 @@
 
 <style scoped>
 
+.btn{
+  padding: 10px;
+  width: 130px;
+  background-color: white;
+  border-radius: 30px;
+  margin-top: 30px;
+  display: block;
+  text-align: center;
+  color:black;
+  font-weight:bold; 
+}
+
+.btn:hover{
+  color:white;
+  background-color:black;
+}
+
 .innerRow{
   align-items: stretch;
   align-content: stretch;
@@ -69,7 +91,7 @@
 }
 
 .descriptionText{
-  padding:30px;
+  padding:19px;
 }
 
 .innerRow > *{
@@ -106,32 +128,7 @@
 @media (min-width: 1024px) {
 
   .innerContainer{
-    padding:131px;
-    height:100%;
-
-    justify-content: center;
-  }
-  .innerRow{
-    display:flex;
-    flex-direction: row;
-  }
-
-  .descriptionText{
-    max-width: 23vw;
-  }
-  .subHeader{
-    width:100%;
-    height:16rem;
-    background-size: cover;
-    background-position: 0;
-    background-repeat: no-repeat;
-  }
-  .game {
-    min-height: 100vh;
-    align-items: center;
-    background-size: cover;
-    background-position: center;
-    padding: 0px;
+    padding:30px 13vw;
   }
 }
 </style>

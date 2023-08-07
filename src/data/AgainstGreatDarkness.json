@@ -1,6 +1,7 @@
 {
   "title": "Against Great Darkness", 
   "description": "Against Great Darkness is a brick breaker, bullet hell, roguelite where you embody a paragon of pagan mythology striving to escape eternal damnation. Battle hordes of demonic entities, acquire powerful relics, and navigate unique events that can aid or hinder your ascent. Gather shards to unlock upgrades and enhance your chances of success in this journey to ascension.",
+  "pressKit": "AgainstGreatDarkness",
   "background": "/AGD/backgroundLow.gif", 
     "textColor":"#ffffff",
     "boxColor":"#96070e",

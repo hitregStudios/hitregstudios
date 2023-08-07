@@ -46,7 +46,7 @@
         </div>
         <div>
           <p><strong>Socials:</strong></p>
-          <p></p>
+          <p>@DirlyDev</p>
         </div>
       </div>
     </div>

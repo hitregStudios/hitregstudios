@@ -9,7 +9,7 @@ const router = createRouter({
     {
       path: '/',
       redirect: to => {
-        return { path: '/games'}
+        return { path: '/games/AgainstGreatDarkness'}
       },
     },
     {
