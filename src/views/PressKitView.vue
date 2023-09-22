@@ -52,11 +52,13 @@
     </div>
     <div class="line"></div>
     <h2><fa :icon="['fas','video']"/> Video</h2>
-    <div class="videos" v-for="(video, index) in videos" :key="index">
-      <LiteYouTubeEmbed 
-        :id="video.id" 
-        :title="video.title"
-      />
+    <div class="gallery">
+      <div class="videos" v-for="(video, index) in videos" :key="index">
+        <LiteYouTubeEmbed 
+          :id="video.id" 
+          :title="video.title"
+        />
+      </div>
     </div>
     <div class="line"></div>
     <h2><fa :icon="['fas','image']"/>  Screen Shots</h2>

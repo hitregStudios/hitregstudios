@@ -1,14 +1,14 @@
 {
   "title": "Against Great Darkness", 
-  "description": "Against Great Darkness is a brick breaker, bullet hell, roguelite where you embody a paragon of pagan mythology striving to escape eternal damnation. Battle hordes of demonic entities, acquire powerful relics, and navigate unique events that can aid or hinder your ascent. Gather shards to unlock upgrades and enhance your chances of success in this journey to ascension.",
+  "description": "Against Great Darkness is a brick-breaking, bullet hell, roguelite where you play as a Pagan trying to escape Hell's maw. Trigger relics by keeping your disks bouncing, experience unique events where you can obtain incredible loot, and battle hellish bosses while always keeping an eye on your disks.",
   "pressKit": "AgainstGreatDarkness",
   "background": "/AGD/backgroundLow.gif", 
     "textColor":"#ffffff",
     "boxColor":"#96070e",
     "steamWidget": "2302150",
     "video": {
-      "id": "WvCbJCwLPlA",
-      "title": "Against Great Darkness Announcement Trailer"
+      "id": "AwIGQjZO-LM",
+      "title": "Against Great Darkness - Official Trailer"
     },
     "images": [
       {
@@ -16,24 +16,24 @@
         "description": "Character select screen"
       },
       {
-        "src": "/AGD/AGD_SS_01.png",
-        "description": "Hill of the Skull boss"
+        "src": "/AGD/AGD_ScreenGrab_01.png",
+        "description": "Titanmancy Lance"
       },
       {
-        "src": "/AGD/AGD_MetaProgression.png",
+        "src": "/AGD/AGD_MetaUpgrades.png",
         "description": "Meta progression"
       },
       {
-        "src": "/AGD/AGD_SS_02.png",
-        "description": "Item proc off juggle"
+        "src": "/AGD/AGD_ScreenGrab_02.png",
+        "description": "Electric Skull Event"
       },
       {
-        "src": "/AGD/AGD_SS_03.png",
-        "description": "Random event"
+        "src": "/AGD/AGD_ScreenGrab_03.png",
+        "description": "Buff Bricks"
       },
       {
-        "src": "/AGD/AGD_SS_04.png",
-        "description": "Delilah boss"
+        "src": "/AGD/AGD_ScreenGrab_04.png",
+        "description": "Hill Of The Skull Boss"
       }
     ]
 }
